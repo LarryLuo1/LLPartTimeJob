@@ -6,17 +6,18 @@
 //  Copyright (c) 2015年 Luolei. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LLRootViewController.h"
 
-@interface ViewController ()
+@interface LLRootViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LLRootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%f, %F",kSCREEN_WIDTH, kSCREEN_HEIGHT);
 }
 
 - (void)didReceiveMemoryWarning {

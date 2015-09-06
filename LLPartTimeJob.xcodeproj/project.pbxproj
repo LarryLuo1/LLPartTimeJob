@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4657B24D1B70FA5600BA67F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657B24C1B70FA5600BA67F4 /* main.m */; };
 		4657B2501B70FA5600BA67F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657B24F1B70FA5600BA67F4 /* AppDelegate.m */; };
-		4657B2531B70FA5600BA67F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657B2521B70FA5600BA67F4 /* ViewController.m */; };
+		4657B2531B70FA5600BA67F4 /* LLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657B2521B70FA5600BA67F4 /* LLRootViewController.m */; };
 		4657B2581B70FA5600BA67F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4657B2571B70FA5600BA67F4 /* Images.xcassets */; };
 		4657B25B1B70FA5600BA67F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4657B2591B70FA5600BA67F4 /* LaunchScreen.xib */; };
 		4657B2671B70FA5600BA67F4 /* LLPartTimeJobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657B2661B70FA5600BA67F4 /* LLPartTimeJobTests.m */; };
@@ -31,13 +31,14 @@
 		4657B24C1B70FA5600BA67F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4657B24E1B70FA5600BA67F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4657B24F1B70FA5600BA67F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4657B2511B70FA5600BA67F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4657B2521B70FA5600BA67F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4657B2511B70FA5600BA67F4 /* LLRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLRootViewController.h; sourceTree = "<group>"; };
+		4657B2521B70FA5600BA67F4 /* LLRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLRootViewController.m; sourceTree = "<group>"; };
 		4657B2571B70FA5600BA67F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4657B25A1B70FA5600BA67F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4657B2601B70FA5600BA67F4 /* LLPartTimeJobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLPartTimeJobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4657B2651B70FA5600BA67F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4657B2661B70FA5600BA67F4 /* LLPartTimeJobTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPartTimeJobTests.m; sourceTree = "<group>"; };
+		465C954B1B7488F4009C88AD /* LLDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		461B9D361B9BE57100A240A1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4657B24E1B70FA5600BA67F4 /* AppDelegate.h */,
+				4657B24F1B70FA5600BA67F4 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		461B9D381B9BE59900A240A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		461B9D3A1B9BE5E100A240A1 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				461B9D3F1B9BE77B00A240A1 /* AppEntrance */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		461B9D3B1B9BE5FE00A240A1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		461B9D3C1B9BE61600A240A1 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		461B9D3D1B9BE62700A240A1 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		461B9D3E1B9BE63400A240A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		461B9D3F1B9BE77B00A240A1 /* AppEntrance */ = {
+			isa = PBXGroup;
+			children = (
+				4657B2511B70FA5600BA67F4 /* LLRootViewController.h */,
+				4657B2521B70FA5600BA67F4 /* LLRootViewController.m */,
+			);
+			name = AppEntrance;
+			sourceTree = "<group>";
+		};
 		4657B23E1B70FA5500BA67F4 = {
 			isa = PBXGroup;
 			children = (
@@ -79,10 +141,14 @@
 		4657B2491B70FA5600BA67F4 /* LLPartTimeJob */ = {
 			isa = PBXGroup;
 			children = (
-				4657B24E1B70FA5600BA67F4 /* AppDelegate.h */,
-				4657B24F1B70FA5600BA67F4 /* AppDelegate.m */,
-				4657B2511B70FA5600BA67F4 /* ViewController.h */,
-				4657B2521B70FA5600BA67F4 /* ViewController.m */,
+				461B9D3E1B9BE63400A240A1 /* Resources */,
+				461B9D3D1B9BE62700A240A1 /* Sections */,
+				461B9D3C1B9BE61600A240A1 /* Vendors */,
+				461B9D3B1B9BE5FE00A240A1 /* Helpers */,
+				461B9D3A1B9BE5E100A240A1 /* General */,
+				461B9D381B9BE59900A240A1 /* Model */,
+				461B9D361B9BE57100A240A1 /* AppDelegate */,
+				465C954A1B7488C8009C88AD /* Marco */,
 				4657B2571B70FA5600BA67F4 /* Images.xcassets */,
 				4657B2591B70FA5600BA67F4 /* LaunchScreen.xib */,
 				4657B24A1B70FA5600BA67F4 /* Supporting Files */,
@@ -114,6 +180,15 @@
 				4657B2651B70FA5600BA67F4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		465C954A1B7488C8009C88AD /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+				465C954B1B7488F4009C88AD /* LLDefine.h */,
+			);
+			name = Marco;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4657B2531B70FA5600BA67F4 /* ViewController.m in Sources */,
+				4657B2531B70FA5600BA67F4 /* LLRootViewController.m in Sources */,
 				4657B2501B70FA5600BA67F4 /* AppDelegate.m in Sources */,
 				4657B24D1B70FA5600BA67F4 /* main.m in Sources */,
 			);
@@ -404,6 +479,7 @@
 				4657B26C1B70FA5600BA67F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4657B26D1B70FA5600BA67F4 /* Build configuration list for PBXNativeTarget "LLPartTimeJobTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +488,7 @@
 				4657B26F1B70FA5600BA67F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LLDefine.h"
 
-@interface ViewController : UIViewController
+@interface LLRootViewController : UIViewController
 
 
 @end

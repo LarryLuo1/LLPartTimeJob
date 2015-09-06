@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>63BBF50F-C563-4EBD-A366-827C5401312E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LLPartTimeJob</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CF494D01390A7454EC29E7437F807DB36451A2BA</key>
+		<string>https://github.com/LarryLuo1/LLPartTimeJob.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LLPartTimeJob.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CF494D01390A7454EC29E7437F807DB36451A2BA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LarryLuo1/LLPartTimeJob.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF494D01390A7454EC29E7437F807DB36451A2BA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF494D01390A7454EC29E7437F807DB36451A2BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LLPartTimeJob</string>
+		</dict>
+	</array>
+</dict>
+</plist>
