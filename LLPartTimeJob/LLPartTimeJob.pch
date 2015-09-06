@@ -1,0 +1,14 @@
+//
+//  LLPartTimeJob.pch
+//  LLPartTimeJob
+//
+//  Created by Larry on 15/9/6.
+//  Copyright (c) 2015年 Luolei. All rights reserved.
+//
+
+#ifndef LLPartTimeJob_LLPartTimeJob_pch
+#define LLPartTimeJob_LLPartTimeJob_pch
+
+#import "LLDefine.h"
+
+#endif
